@@ -1,0 +1,1062 @@
+{
+  "item_ext": [
+    {
+      "TableFileHeader": "ItemExtIndex",
+      "DatabaseColumnHeader": "Extension",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "strName",
+      "DatabaseColumnHeader": "strName",
+      "Description": "Name of Item",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "baseItemID",
+      "DatabaseColumnHeader": "Num",
+      "Description": "Number of item located at your Item_org_us.tbl",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Description",
+      "DatabaseColumnHeader": "Description",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "EffectID",
+      "DatabaseColumnHeader": "EffectID",
+      "Description": "Elemental glow that item get since (+6).Example in (item_ext_30_us) hell breaker (4) is 12060 , here  '12' refer into the ITEM kind.. and '060' to the color of the glow in this case (fire elemental)",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "dxtID",
+      "DatabaseColumnHeader": "ItemIconID1",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "iconID",
+      "DatabaseColumnHeader": "ItemIconID2",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "byItemType",
+      "DatabaseColumnHeader": "ItemType",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Damage",
+      "DatabaseColumnHeader": "Damage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AtkInterval",
+      "DatabaseColumnHeader": "AtkInterval",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "HitRate",
+      "DatabaseColumnHeader": "Hitrate",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "EvasionRate",
+      "DatabaseColumnHeader": "Evasionrate",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxDurability",
+      "DatabaseColumnHeader": "Duration",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "PriceMultiply",
+      "DatabaseColumnHeader": "PriceMultiply",
+      "Description": "Price multiplier to BuyPrice",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Defense",
+      "DatabaseColumnHeader": "Defense",
+      "Description": "Armour bonus to original item pulls from item_org_us",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "DaggerDefense",
+      "DatabaseColumnHeader": "DaggerAc",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "SwordDefense",
+      "DatabaseColumnHeader": "SwordAc",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ClubDefense",
+      "DatabaseColumnHeader": "ClubAc",
+      "Description": "Called [MaceAc] - in 1298",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AxeDefense",
+      "DatabaseColumnHeader": "AxeAc",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "SpearDefense",
+      "DatabaseColumnHeader": "SpearAc",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ArrowDefense",
+      "DatabaseColumnHeader": "BowAc",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "FireDamage",
+      "DatabaseColumnHeader": "FireDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "GlacierDamage",
+      "DatabaseColumnHeader": "IceDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "LightningDamage",
+      "DatabaseColumnHeader": "LightningDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "PoisonDamage",
+      "DatabaseColumnHeader": "PoisonDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "HPRecovery",
+      "DatabaseColumnHeader": "HPDrain",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MPDamage",
+      "DatabaseColumnHeader": "MPDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MPRecovery",
+      "DatabaseColumnHeader": "MPDrain",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "RepelPhysDamage",
+      "DatabaseColumnHeader": "MirrorDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "bySoulBind",
+      "DatabaseColumnHeader": "Bound",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "strB",
+      "DatabaseColumnHeader": "StrB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "hpB",
+      "DatabaseColumnHeader": "StaB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "dexB",
+      "DatabaseColumnHeader": "DexB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "intB",
+      "DatabaseColumnHeader": "IntelB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "mpB",
+      "DatabaseColumnHeader": "ChaB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "bonusHealth",
+      "DatabaseColumnHeader": "MaxHpB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "bonusMP",
+      "DatabaseColumnHeader": "MaxMpB",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "FireResist",
+      "DatabaseColumnHeader": "FireR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "IceResist",
+      "DatabaseColumnHeader": "ColdR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "LightningResist",
+      "DatabaseColumnHeader": "LightningR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MagicResist",
+      "DatabaseColumnHeader": "MagicR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "PoisonResist",
+      "DatabaseColumnHeader": "PoisonR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "CurseResist",
+      "DatabaseColumnHeader": "CurseR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "dwEffectID1",
+      "DatabaseColumnHeader": "Effect1",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "dwEffectID2",
+      "DatabaseColumnHeader": "Effect2",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqLevel",
+      "DatabaseColumnHeader": "ReqLevel",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqRank",
+      "DatabaseColumnHeader": "ReqRank",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqTitle",
+      "DatabaseColumnHeader": "ReqTitle",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqStrength",
+      "DatabaseColumnHeader": "ReqStr",
+      "Description": "",
+      "AdditionalData": "It is in both ItemTable and ItemExt"
+    },
+    {
+      "TableFileHeader": "reqHP",
+      "DatabaseColumnHeader": "ReqSta",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqDexterity",
+      "DatabaseColumnHeader": "ReqDex",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqInt",
+      "DatabaseColumnHeader": "ReqIntel",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "reqMP",
+      "DatabaseColumnHeader": "ReqCha",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Bound",
+      "DatabaseColumnHeader": "Bound",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "item_org": [
+    {
+      "TableFileHeader": "Num",
+      "DatabaseColumnHeader": "Num",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "extNum",
+      "DatabaseColumnHeader": "Extension",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "strName",
+      "DatabaseColumnHeader": "strName",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Description",
+      "DatabaseColumnHeader": "Description",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ItemPlusID",
+      "DatabaseColumnHeader": "ItemPlusID",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ItemAlteration",
+      "DatabaseColumnHeader": "ItemAlteration",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ItemIconID1",
+      "DatabaseColumnHeader": "ItemIconID1",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "dxtID",
+      "DatabaseColumnHeader": "ItemIconID2",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": " An Additional Information to uInt32. Used for defining the item's +10 ID. So it's like xxxxxxByte 8",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "An Additional Information to uInt32. Used for defining the Item's +1 ID. So it's like xxxxxxByte 9",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Kind",
+      "DatabaseColumnHeader": "Kind",
+      "Description": " The Item's Type. Server Side! (You will find the column under: ItemKind in Database)",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": " Im not sure, but from what I've found out it's 1 for all mage's pauldrons that need master quest.",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Slot",
+      "DatabaseColumnHeader": "Slot",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Race",
+      "DatabaseColumnHeader": "Race",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Class",
+      "DatabaseColumnHeader": "Class",
+      "Description": "The Item's required Character Class",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Attack",
+      "DatabaseColumnHeader": "Attack",
+      "Description": "Item's Attack Power at +0. However, I'd strongly recommand setting this value to 0 because it multiplies with the EXT files.",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Delay",
+      "DatabaseColumnHeader": "Delay",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Range",
+      "DatabaseColumnHeader": "Range",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Weight",
+      "DatabaseColumnHeader": "Weight",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Duration",
+      "DatabaseColumnHeader": "Duration",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "BuyPrice",
+      "DatabaseColumnHeader": "BuyPrice",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "sellingPrice",
+      "DatabaseColumnHeader": "SellPrice",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Ac",
+      "DatabaseColumnHeader": "Ac",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "isCountable",
+      "DatabaseColumnHeader": "Countable",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Effect1",
+      "DatabaseColumnHeader": "Effect1",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Effect2",
+      "DatabaseColumnHeader": "Effect2",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ReqLevelMin",
+      "DatabaseColumnHeader": "ReqLevel",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ReqLevelMax",
+      "DatabaseColumnHeader": "ReqLevelMax",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ReqStr",
+      "DatabaseColumnHeader": "ReqStr",
+      "Description": "",
+      "AdditionalData": "It is in both ItemTable and ItemExt"
+    },
+    {
+      "TableFileHeader": "ReqHp",
+      "DatabaseColumnHeader": "ReqSta",
+      "Description": "",
+      "AdditionalData": "it is in both ItemTable and ItemExt"
+    },
+    {
+      "TableFileHeader": "ReqDex",
+      "DatabaseColumnHeader": "ReqDex",
+      "Description": "",
+      "AdditionalData": "it is in both ItemTable and ItemExt"
+    },
+    {
+      "TableFileHeader": "ReqInt",
+      "DatabaseColumnHeader": "ReqIntel",
+      "Description": "",
+      "AdditionalData": "it is in both ItemTable and ItemExt"
+    },
+    {
+      "TableFileHeader": "ReqMp",
+      "DatabaseColumnHeader": "ReqCha",
+      "Description": "",
+      "AdditionalData": "it is in both ItemTable and ItemExt"
+    },
+    {
+      "TableFileHeader": "SellingGroup",
+      "DatabaseColumnHeader": "SellingGroup",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ItemType",
+      "DatabaseColumnHeader": "ItemClass",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "skill_magic_1": [
+    {
+      "TableFileHeader": "iNum",
+      "DatabaseColumnHeader": "iNum",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Type",
+      "DatabaseColumnHeader": "Type",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "HitRate",
+      "DatabaseColumnHeader": "HitRate",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Hit",
+      "DatabaseColumnHeader": "Hit",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Delay",
+      "DatabaseColumnHeader": "Delay",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ComboType",
+      "DatabaseColumnHeader": "ComboType",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ComboCount",
+      "DatabaseColumnHeader": "ComboCount",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ComboDamage",
+      "DatabaseColumnHeader": "ComboDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Range",
+      "DatabaseColumnHeader": "Range",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Unknown",
+      "DatabaseColumnHeader": "Unknown",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "skill_magic_2": [
+    {
+      "TableFileHeader": "iNum",
+      "DatabaseColumnHeader": "iNum",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "HitType",
+      "DatabaseColumnHeader": "HitType",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "HitRate",
+      "DatabaseColumnHeader": "HitRate",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AddDamage",
+      "DatabaseColumnHeader": "AddDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AddRange",
+      "DatabaseColumnHeader": "AddRange",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "NeedArrow",
+      "DatabaseColumnHeader": "NeedArrow",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "skill_magic_3": [
+    {
+      "TableFileHeader": "iNum",
+      "DatabaseColumnHeader": "iNum",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Radius",
+      "DatabaseColumnHeader": "Radius",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "DirectType",
+      "DatabaseColumnHeader": "DirectType",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "FirstDamage",
+      "DatabaseColumnHeader": "FirstDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "TimeDamage",
+      "DatabaseColumnHeader": "TimeDamage",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Duration",
+      "DatabaseColumnHeader": "Duration",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Attribute",
+      "DatabaseColumnHeader": "Attribute",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "skill_magic_4": [
+    {
+      "TableFileHeader": "iNum",
+      "DatabaseColumnHeader": "iNum",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "BuffType",
+      "DatabaseColumnHeader": "BuffType",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Radius",
+      "DatabaseColumnHeader": "Radius",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Duration",
+      "DatabaseColumnHeader": "Duration",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AttackSpeed",
+      "DatabaseColumnHeader": "AttackSpeed",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Speed",
+      "DatabaseColumnHeader": "Speed",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AC",
+      "DatabaseColumnHeader": "AC",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ACPct",
+      "DatabaseColumnHeader": "ACPct",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Attack",
+      "DatabaseColumnHeader": "Attack",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MagicAttack",
+      "DatabaseColumnHeader": "MagicAttack",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxHP",
+      "DatabaseColumnHeader": "MaxHP",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxHPPct",
+      "DatabaseColumnHeader": "MaxHPPct",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxMP",
+      "DatabaseColumnHeader": "MaxMP",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxMPPct",
+      "DatabaseColumnHeader": "MaxMPPct",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Str",
+      "DatabaseColumnHeader": "Str",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Sta",
+      "DatabaseColumnHeader": "Sta",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Dex",
+      "DatabaseColumnHeader": "Dex",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Intel",
+      "DatabaseColumnHeader": "Intel",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Cha",
+      "DatabaseColumnHeader": "Cha",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "FireR",
+      "DatabaseColumnHeader": "FireR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ColdR",
+      "DatabaseColumnHeader": "ColdR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "LightR",
+      "DatabaseColumnHeader": "LightR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MagicR",
+      "DatabaseColumnHeader": "MagicR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "DiseaseR",
+      "DatabaseColumnHeader": "DiseaseR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "PoisonR",
+      "DatabaseColumnHeader": "PoisonR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ExpPct",
+      "DatabaseColumnHeader": "ExpPct",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "skill_magic_5": [
+    {
+      "TableFileHeader": "iNum",
+      "DatabaseColumnHeader": "iNum",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Name",
+      "DatabaseColumnHeader": "Name",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Type",
+      "DatabaseColumnHeader": "Type",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ExpRecover",
+      "DatabaseColumnHeader": "ExpRecover",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "NeedStone",
+      "DatabaseColumnHeader": "NeedStone",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ],
+  "skill_magic_6": [
+    {
+      "TableFileHeader": "iNum",
+      "DatabaseColumnHeader": "iNum",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Name",
+      "DatabaseColumnHeader": "Name",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Desc",
+      "DatabaseColumnHeader": "Desc",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Size",
+      "DatabaseColumnHeader": "Size",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "TransformID",
+      "DatabaseColumnHeader": "TransformID",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Duration",
+      "DatabaseColumnHeader": "Duration",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxHP",
+      "DatabaseColumnHeader": "MaxHP",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MaxMP",
+      "DatabaseColumnHeader": "MaxMP",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "Speed",
+      "DatabaseColumnHeader": "Speed",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "AttackSpeed",
+      "DatabaseColumnHeader": "AttackSpeed",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "TotalHit",
+      "DatabaseColumnHeader": "TotalHit",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "TotalAC",
+      "DatabaseColumnHeader": "TotalAC",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "TotalHitRate",
+      "DatabaseColumnHeader": "TotalHitRate",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "TotalDD",
+      "DatabaseColumnHeader": "TotalDD",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "FireR",
+      "DatabaseColumnHeader": "FireR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "ColdR",
+      "DatabaseColumnHeader": "ColdR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "LightR",
+      "DatabaseColumnHeader": "LightR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "MagicR",
+      "DatabaseColumnHeader": "MagicR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "DiseaseR",
+      "DatabaseColumnHeader": "DiseaseR",
+      "Description": "",
+      "AdditionalData": ""
+    },
+    {
+      "TableFileHeader": "PoisonR",
+      "DatabaseColumnHeader": "PoisonR",
+      "Description": "",
+      "AdditionalData": ""
+    }
+  ]
+}
