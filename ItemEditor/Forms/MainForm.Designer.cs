@@ -46,7 +46,7 @@
             this.PlayerInventoryBtn = new System.Windows.Forms.Button();
             this.InvetoryEditorBtn = new System.Windows.Forms.Button();
             this.CenterPanel = new System.Windows.Forms.Panel();
-            this.V1090 = new System.Windows.Forms.CheckBox();
+            this.V1098 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
             this.dbConnectionControl = new ItemEditor.CustomControls.DbConnectionControl();
             this.panel1.SuspendLayout();
@@ -303,7 +303,7 @@
             // 
             this.CenterPanel.AutoScroll = true;
             this.CenterPanel.BackColor = System.Drawing.Color.Transparent;
-            this.CenterPanel.Controls.Add(this.V1090);
+            this.CenterPanel.Controls.Add(this.V1098);
             this.CenterPanel.Controls.Add(this.button3);
             this.CenterPanel.Controls.Add(this.dbConnectionControl);
             this.CenterPanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -312,15 +312,15 @@
             this.CenterPanel.Size = new System.Drawing.Size(1037, 663);
             this.CenterPanel.TabIndex = 2;
             // 
-            // V1090
+            // V1098
             // 
-            this.V1090.AutoSize = true;
-            this.V1090.Location = new System.Drawing.Point(243, 328);
-            this.V1090.Name = "V1090";
-            this.V1090.Size = new System.Drawing.Size(72, 24);
-            this.V1090.TabIndex = 5;
-            this.V1090.Text = "V1090";
-            this.V1090.UseVisualStyleBackColor = true;
+            this.V1098.AutoSize = true;
+            this.V1098.Location = new System.Drawing.Point(243, 328);
+            this.V1098.Name = "V1098";
+            this.V1098.Size = new System.Drawing.Size(72, 24);
+            this.V1098.TabIndex = 5;
+            this.V1098.Text = "V1098";
+            this.V1098.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -389,7 +389,7 @@
         private Panel CenterPanel;
         private Button button3;
         private CustomControls.DbConnectionControl dbConnectionControl;
-        private CheckBox V1090;
+        private CheckBox V1098;
         private Button TableEditorButton;
         private Button button5;
         private Button button4;

@@ -39,11 +39,11 @@ namespace ItemEditor.Forms.ItemCreator
                 {
                     try
                     {
-                        string gghh = ItemCreatorForm.itemTableValues[$"{columnInItemOrg.DatabaseColumnHeader}"].Text;
+                        string valueFromDbModel = ItemCreatorForm.itemTableValues[$"{columnInItemOrg.DatabaseColumnHeader}"].Text;
 
-                        if (!string.IsNullOrEmpty(gghh))
+                        if (!string.IsNullOrEmpty(valueFromDbModel))
                         {
-                            newRow[columnInItemOrg.TableFileHeader.ToString()] = gghh;
+                            newRow[columnInItemOrg.TableFileHeader.ToString()] = valueFromDbModel;
                         }
                     }
                     catch (Exception ee)

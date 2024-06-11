@@ -45,7 +45,7 @@ namespace ItemEditor.Forms
             this.dbConnectionControl.UserIdRtb.Text = CoreServices.ConfigManager.Configuration.UserName;
             this.dbConnectionControl.PasswordRtb.Text = CoreServices.ConfigManager.Configuration.Password;
             this.dbConnectionControl.InitialCatalogRtb.Text = CoreServices.ConfigManager.Configuration.CatalogName;
-            this.V1090.Checked = CoreServices.ConfigManager.Configuration.Is1098Version;
+            this.V1098.Checked = CoreServices.ConfigManager.Configuration.Is1098Version;
         }
 
         private void InventoryPanelOptionToggle_Click(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace ItemEditor.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (V1090.Checked)
+            if (V1098.Checked)
             {
                 CoreServices.ImageHelper.Load1098IconReferences();
                 CoreServices.DatabaseManager = new DatabaseOperationManagerV1098();
@@ -91,8 +91,8 @@ namespace ItemEditor.Forms
             {
                 var requiredSqlObjects = new Dictionary<string, string>
                 {
-                    { "[dbo].[sp_EncodeStrItem]", "P" },
-                    { "[dbo].[sp_DecodeStrItem]", "P" },
+                    { "[dbo].[_HorrusTB_EncodeStrItem]", "P" },
+                    { "[dbo].[_HorrusTB_DecodeStrItem]", "P" },
                 };
 
                 foreach (var item in requiredSqlObjects)
@@ -133,7 +133,7 @@ namespace ItemEditor.Forms
             CoreServices.ConfigManager.Configuration.UserName = this.dbConnectionControl.UserIdRtb.Text;
             CoreServices.ConfigManager.Configuration.Password = this.dbConnectionControl.PasswordRtb.Text;
             CoreServices.ConfigManager.Configuration.CatalogName = this.dbConnectionControl.InitialCatalogRtb.Text;
-            CoreServices.ConfigManager.Configuration.Is1098Version = this.V1090.Checked;
+            CoreServices.ConfigManager.Configuration.Is1098Version = this.V1098.Checked;
             CoreServices.ConfigManager.Save();
         }
 

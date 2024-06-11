@@ -15,7 +15,7 @@ namespace DataAccessLayer
         {
             int i = 0;
 
-            List<UserItem> items =  connection.Query<UserItem>("dbo.sp_DecodeStrItem", new { @strUserId = userName, @displayAll = 1 }, commandType: CommandType.StoredProcedure).ToList();
+            List<UserItem> items =  connection.Query<UserItem>("dbo._HorrusTB_DecodeStrItem", new { @strUserId = userName, @displayAll = 1 }, commandType: CommandType.StoredProcedure).ToList();
 
             foreach (var item in items)
             {

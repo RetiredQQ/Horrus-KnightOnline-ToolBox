@@ -107,8 +107,6 @@ namespace DataAccessLayer
         public void SaveChanges(string strUserId, List<UserItem> items, int coinsAmount)
         {
             var updatedBinaryData = GetStrItemFromUserItemList(items);
-            //connection.Query("dbo.sp_EncodeStrItem", new { @strUserId = strUserId, @binaryData = updatedBinaryData }, commandType: CommandType.StoredProcedure);
-            //connection.Query($"UPDATE [dbo].[USERDATA] SET [Gold] = {coinsAmount} WHERE strUserId = '{strUserId}'");
 
             connection.Open();
             SqlTransaction transaction = connection.BeginTransaction();
@@ -119,7 +117,7 @@ namespace DataAccessLayer
             {
                 command.Transaction = transaction;
                 command.CommandType = CommandType.StoredProcedure;
-                command.CommandText = "dbo.sp_EncodeStrItem";
+                command.CommandText = "dbo._HorrusTB_EncodeStrItem";
 
                 // Add parameters
                 command.Parameters.AddWithValue("@strUserId", strUserId);
