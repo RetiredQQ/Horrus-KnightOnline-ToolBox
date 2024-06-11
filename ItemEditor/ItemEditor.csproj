@@ -54,7 +54,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
-    <ProjectReference Include="..\SharedModels\ClassDefinitions.csproj" />
+    <ProjectReference Include="..\ClassDefinitions\ClassDefinitions.csproj" />
     <ProjectReference Include="..\TableEditor\TableEditor.csproj" />
   </ItemGroup>
 
