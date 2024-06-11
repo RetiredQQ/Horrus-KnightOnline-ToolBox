@@ -162,7 +162,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(250, 50);
             this.button4.TabIndex = 4;
-            this.button4.Text = "   Add New Item";
+            this.button4.Text = "   Search Item";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = false;
             // 

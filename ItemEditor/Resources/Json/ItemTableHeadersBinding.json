@@ -393,13 +393,13 @@
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Unknown",
+      "TableFileHeader": "item's +10",
       "DatabaseColumnHeader": "Unknown",
       "Description": " An Additional Information to uInt32. Used for defining the item's +10 ID. So it's like xxxxxxByte 8",
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Unknown",
+      "TableFileHeader": "item's +1",
       "DatabaseColumnHeader": "Unknown",
       "Description": "An Additional Information to uInt32. Used for defining the Item's +1 ID. So it's like xxxxxxByte 9",
       "AdditionalData": ""
@@ -411,13 +411,13 @@
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Unknown",
+      "TableFileHeader": "Mage Robe",
       "DatabaseColumnHeader": "Unknown",
       "Description": " Im not sure, but from what I've found out it's 1 for all mage's pauldrons that need master quest.",
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Slot",
+      "TableFileHeader": "Inventory Slot",
       "DatabaseColumnHeader": "Slot",
       "Description": "",
       "AdditionalData": ""
@@ -441,7 +441,7 @@
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Delay",
+      "TableFileHeader": "R Delay",
       "DatabaseColumnHeader": "Delay",
       "Description": "",
       "AdditionalData": ""
@@ -483,7 +483,7 @@
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "isCountable",
+      "TableFileHeader": "Is Stackable",
       "DatabaseColumnHeader": "Countable",
       "Description": "",
       "AdditionalData": ""
@@ -513,14 +513,14 @@
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Unknown",
-      "DatabaseColumnHeader": "Unknown",
-      "Description": "",
+      "TableFileHeader": "Req Authority",
+      "DatabaseColumnHeader": "ReqRank",
+      "Description": "(needed rank) The Item's required Authority. (For example: 1 = King)",
       "AdditionalData": ""
     },
     {
-      "TableFileHeader": "Unknown",
-      "DatabaseColumnHeader": "Unknown",
+      "TableFileHeader": "Req Clan Authority",
+      "DatabaseColumnHeader": "ReqTitle",
       "Description": "",
       "AdditionalData": ""
     },
@@ -528,13 +528,13 @@
       "TableFileHeader": "ReqStr",
       "DatabaseColumnHeader": "ReqStr",
       "Description": "",
-      "AdditionalData": "It is in both ItemTable and ItemExt"
+      "AdditionalData": "It is in both ItemTable and ItemExt",  
     },
     {
       "TableFileHeader": "ReqHp",
       "DatabaseColumnHeader": "ReqSta",
       "Description": "",
-      "AdditionalData": "it is in both ItemTable and ItemExt"
+      "AdditionalData": "it is in both ItemTable and ItemExt, Required HP"
     },
     {
       "TableFileHeader": "ReqDex",
@@ -563,7 +563,7 @@
     {
       "TableFileHeader": "ItemType",
       "DatabaseColumnHeader": "ItemClass",
-      "Description": "",
+      "Description": "0 - None, 1 - Low Class, 2 - Middle Class, 3 - HighClass",
       "AdditionalData": ""
     },
     {

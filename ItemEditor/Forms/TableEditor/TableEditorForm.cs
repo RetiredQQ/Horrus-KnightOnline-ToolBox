@@ -54,6 +54,7 @@ namespace ItemEditor.Forms.TableEditor
         public void OpenFile(object ofileName)
         {
             this.filterColumn.Items.Clear();
+            this.filterColumn.SelectedIndex = -1;
             koTableFile = TableEditorHelper.DecodeTableFile(ofileName as string);
 
             if (koTableFile != null)
