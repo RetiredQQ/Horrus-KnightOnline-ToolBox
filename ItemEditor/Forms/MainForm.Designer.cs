@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.TableEditorButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -100,7 +99,7 @@
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.button2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 335);
+            this.panel4.Location = new System.Drawing.Point(0, 285);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(250, 50);
             this.panel4.TabIndex = 4;
@@ -140,7 +139,6 @@
             this.panel2.AutoSize = true;
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.TableEditorButton);
             this.panel2.Controls.Add(this.label1);
@@ -148,23 +146,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 135);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 200);
+            this.panel2.Size = new System.Drawing.Size(250, 150);
             this.panel2.TabIndex = 3;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Maroon;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.DarkOrange;
-            this.button4.Location = new System.Drawing.Point(0, 150);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(250, 50);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "   Search Item";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
@@ -205,7 +188,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(157, 115);
+            this.label1.Location = new System.Drawing.Point(157, 90);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 24);
             this.label1.TabIndex = 1;
@@ -294,7 +277,7 @@
             this.InvetoryEditorBtn.Name = "InvetoryEditorBtn";
             this.InvetoryEditorBtn.Size = new System.Drawing.Size(250, 50);
             this.InvetoryEditorBtn.TabIndex = 2;
-            this.InvetoryEditorBtn.Text = "   Invetory Editor";
+            this.InvetoryEditorBtn.Text = "   Invetory Editor/Search Item";
             this.InvetoryEditorBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.InvetoryEditorBtn.UseVisualStyleBackColor = false;
             this.InvetoryEditorBtn.Click += new System.EventHandler(this.InventoryPanelOptionToggle_Click);
@@ -392,6 +375,5 @@
         private CheckBox V1098;
         private Button TableEditorButton;
         private Button button5;
-        private Button button4;
     }
 }

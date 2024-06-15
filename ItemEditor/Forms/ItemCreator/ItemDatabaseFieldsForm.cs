@@ -8,6 +8,7 @@ namespace ItemEditor.Forms.ItemCreator
     public partial class ItemDatabaseFieldsForm : Form
     {
         ItemCreatorForm parent;
+        List<string> insertIntoDbQueryies = new List<string>();
 
         public ItemDatabaseFieldsForm(ItemCreatorForm itemTableForm)
         {
@@ -65,6 +66,7 @@ namespace ItemEditor.Forms.ItemCreator
                         Maximum = int.MaxValue,
                         Increment = 0,
                     };
+                    //control.Enter += dbConnectionControl_Enter;
                 }
 
                 control.Name = "input_" + columnName;
@@ -75,8 +77,17 @@ namespace ItemEditor.Forms.ItemCreator
 
                 yPos += 30;
                 indexInForm++;
+
                 ItemCreatorForm.itemTableValues.Add(columnName, control);
             }
+        }
+
+        /// <summary>
+        /// Clears text from focused control
+        /// </summary>
+        private void dbConnectionControl_Enter(object sender, EventArgs e)
+        {
+            (sender as NumericUpDown).Text = string.Empty;
         }
 
         private void ContinueToItemOrgButton_Click(object sender, EventArgs e)
@@ -99,15 +110,16 @@ namespace ItemEditor.Forms.ItemCreator
 
             try
             {
-                var result = CoreServices.DatabaseManager.InsertIntoItems(richTextBox1.Text);
-                if (result != 1)
+                foreach (var item in insertIntoDbQueryies)
                 {
-                    CoreServices.Logger.ShowError($"DB error when inserting new row, error code {result}");
+                    var result = CoreServices.DatabaseManager.InsertIntoItems(item);
+                    if (result != 1)
+                    {
+                        CoreServices.Logger.ShowError($"DB error when inserting new row, error code {result}");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show($"Sucesfull Insert into db:{Environment.NewLine}{richTextBox1.Text}");
-                }
+
+                MessageBox.Show($"Sucesfull Insert into db:{Environment.NewLine}{richTextBox1.Text}");
             }
             catch (Exception exception)
             {
@@ -117,7 +129,12 @@ namespace ItemEditor.Forms.ItemCreator
 
         private void PrepareDbInsertButton_Click(object sender, EventArgs e)
         {
-            this.richTextBox1.Clear();
+            if (!IsMultipleInsertCheckbox.Checked)
+            {
+                this.richTextBox1.Clear();
+                this.insertIntoDbQueryies.Clear();
+            }
+
             StringBuilder insertIntoBuilder = new StringBuilder();
 
             foreach (var item in ItemCreatorForm.itemTableValues)
@@ -133,7 +150,8 @@ namespace ItemEditor.Forms.ItemCreator
             }
 
             string insert = $"INSERT INTO [dbo].[ITEM] VALUES ({insertIntoBuilder.ToString().Remove(0, 1)})";
-
+            this.insertIntoDbQueryies.Add(insert);
+            ItemCreatorForm.extElementsToTableEnteries.Add(ItemCreatorForm.itemTableValues);
             richTextBox1.AppendText(insert);
             richTextBox1.AppendText(Environment.NewLine);
         }

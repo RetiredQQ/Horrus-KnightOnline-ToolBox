@@ -7,7 +7,9 @@ namespace ItemEditor.Forms.ItemCreator
     {
         public static TableEditorForm TableEditorForm;
         public static Dictionary<string, Control> itemTableValues = new Dictionary<string, Control>();
-        ItemDatabaseFieldsForm itemDatabaseFieldsForm;
+        public static List<Dictionary<string, Control>> extElementsToTableEnteries = new List<Dictionary<string, Control>>();
+
+        public static ItemDatabaseFieldsForm itemDatabaseFieldsForm;
         DataItemForm dataItemForm;
 
         public ItemCreatorForm()
@@ -61,6 +63,7 @@ namespace ItemEditor.Forms.ItemCreator
             else
             {
                 dataItemForm.LoadIDataTblFile(CoreServices.ConfigManager.Configuration.DataTableSettings.ItemOrgTablePath);
+                //dataItemForm.Custom1298ItemOrg("item_org", "num");
                 dataItemForm.LoadValuesIntoNewRow("item_org", "num");
             }
 

@@ -31,6 +31,7 @@
             this.DatabaseItemPanel = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.IsMultipleInsertCheckbox = new System.Windows.Forms.CheckBox();
             this.isExtOnly = new System.Windows.Forms.CheckBox();
             this.PrepareDbInsertButton = new System.Windows.Forms.Button();
             this.InsertIntoDbButton = new System.Windows.Forms.Button();
@@ -62,6 +63,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.IsMultipleInsertCheckbox);
             this.panel1.Controls.Add(this.isExtOnly);
             this.panel1.Controls.Add(this.PrepareDbInsertButton);
             this.panel1.Controls.Add(this.InsertIntoDbButton);
@@ -72,6 +74,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(779, 291);
             this.panel1.TabIndex = 1;
+            // 
+            // IsMultipleInsertCheckbox
+            // 
+            this.IsMultipleInsertCheckbox.AutoSize = true;
+            this.IsMultipleInsertCheckbox.Enabled = false;
+            this.IsMultipleInsertCheckbox.Location = new System.Drawing.Point(157, 18);
+            this.IsMultipleInsertCheckbox.Name = "IsMultipleInsertCheckbox";
+            this.IsMultipleInsertCheckbox.Size = new System.Drawing.Size(162, 24);
+            this.IsMultipleInsertCheckbox.TabIndex = 5;
+            this.IsMultipleInsertCheckbox.Text = "Is more then 1 entry";
+            this.IsMultipleInsertCheckbox.UseVisualStyleBackColor = true;
             // 
             // isExtOnly
             // 
@@ -149,5 +162,6 @@
         private Button PrepareDbInsertButton;
         private CheckBox isExtOnly;
         private Panel panel2;
+        private CheckBox IsMultipleInsertCheckbox;
     }
 }

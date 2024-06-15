@@ -54,6 +54,7 @@ namespace ItemEditor.Forms.TableEditor
         public void OpenFile(object ofileName)
         {
             this.filterColumn.Items.Clear();
+            this.filterColumn.Text = String.Empty;
             this.filterColumn.SelectedIndex = -1;
             koTableFile = TableEditorHelper.DecodeTableFile(ofileName as string);
 
@@ -76,6 +77,7 @@ namespace ItemEditor.Forms.TableEditor
                 return true;
             }
 
+            koTableFile.Table.AcceptChanges();
             koTableFile.Save(); // save   
             koTableFile.Altered = false;
 

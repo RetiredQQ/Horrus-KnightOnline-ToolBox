@@ -30,11 +30,13 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.LoadExtButton = new System.Windows.Forms.Button();
+            this.RestoreStartFormButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.RestoreStartFormButton);
             this.panel1.Controls.Add(this.LoadExtButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -51,6 +53,16 @@
             this.LoadExtButton.Text = "Load Ext Table";
             this.LoadExtButton.UseVisualStyleBackColor = true;
             this.LoadExtButton.Click += new System.EventHandler(this.LoadExtButton_Click);
+            // 
+            // RestoreStartFormButton
+            // 
+            this.RestoreStartFormButton.Location = new System.Drawing.Point(207, 21);
+            this.RestoreStartFormButton.Name = "RestoreStartFormButton";
+            this.RestoreStartFormButton.Size = new System.Drawing.Size(139, 29);
+            this.RestoreStartFormButton.TabIndex = 1;
+            this.RestoreStartFormButton.Text = "Go To Start Page";
+            this.RestoreStartFormButton.UseVisualStyleBackColor = true;
+            this.RestoreStartFormButton.Click += new System.EventHandler(this.RestoreStartFormButton_Click);
             // 
             // DataItemForm
             // 
@@ -69,5 +81,6 @@
 
         private Panel panel1;
         private Button LoadExtButton;
+        private Button RestoreStartFormButton;
     }
 }

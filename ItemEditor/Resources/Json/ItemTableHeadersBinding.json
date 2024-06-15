@@ -2,7 +2,7 @@
   "item_ext": [
     {
       "TableFileHeader": "ItemExtIndex",
-      "DatabaseColumnHeader": "Extension",
+      "DatabaseColumnHeader": "",
       "Description": "",
       "AdditionalData": ""
     },
