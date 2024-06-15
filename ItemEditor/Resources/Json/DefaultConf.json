@@ -1,11 +1,11 @@
 ﻿{
   "DbName": "(local)",
-  "UserName": "janusz",
-  "Password": "janusz",
-  "CatalogName": "KO_DATABASE_SERVER_001",
+  "UserName": "knight",
+  "Password": "knight",
+  "CatalogName": "KN_online",
   "DataTableSettings": {
     "DataFolderPath": null,
-    "ItemExtTablePath": "C:\\games\\1098Client\\Data\\Item_Org_us.tbl",
+    "ItemExtTablePath": null,
     "ItemOrgTablePath": null
   }
 }
