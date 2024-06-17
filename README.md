@@ -11,7 +11,7 @@ Right now tool contains such features as :
 - Item Creator (not fully completed !! I took bad approach, this feature has to be re-worked )
 
 # Requirmetns 
-.Net 6.0
+.Net 6.0. 
 Inventory Editor requires some stored procedures to be run manully 
 
 # Code information
