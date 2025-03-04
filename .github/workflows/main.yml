@@ -1,0 +1,36 @@
+name: Build ItemEditor
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 6.x
+
+    - name: Restore dependencies
+      run: dotnet restore ItemEditor.csproj
+
+    - name: Build
+      run: dotnet build ItemEditor.csproj --configuration Release --no-restore
+
+    - name: Publish
+      run: dotnet publish ItemEditor.csproj --configuration Release --no-build --output ./publish
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ItemEditor
+        path: ./publish
